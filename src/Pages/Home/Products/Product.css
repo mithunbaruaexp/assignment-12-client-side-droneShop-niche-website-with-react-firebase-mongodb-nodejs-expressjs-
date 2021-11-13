@@ -1,0 +1,13 @@
+.product-img {
+    position: relative;
+}
+
+.product-img span {
+    background: lightskyblue;
+    color: #fff;
+    padding: 5px 17px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-weight: 700;
+}

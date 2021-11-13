@@ -1,0 +1,42 @@
+.banner-wrapper h1 span {
+  display: block;
+  color: skyblue;
+}
+
+.banner-wrapper {
+  text-align: left;
+  padding: 150px 0;
+}
+
+.banner-wrapper h1 {
+  font-size: 38px;
+}
+
+.banner-wrapper p {
+  margin: 30px 0;
+}
+
+.banner-wrapper button {
+  background: skyblue;
+  border: none;
+  color: #fff;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.banner-wrapper button:hover {
+  background: #333;
+}
+@media only screen and (max-width: 767px) {
+  .banner-wrapper {
+    padding: 60px 0;
+    text-align: center;
+  }
+
+  .banner-wrapper .drone-img {
+    margin-top: 50px;
+  }
+}

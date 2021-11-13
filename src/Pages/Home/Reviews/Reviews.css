@@ -1,0 +1,58 @@
+.slider-wrapper {
+  background-image: url("https://i.ibb.co/F0hqVZZ/Screenshot-4.png");
+}
+.slider-wrapper {
+  padding: 100px 0;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+.slider-wrapper i.fas {
+  color: #fff;
+  font-size: 62px;
+  right: 36px;
+  margin-right: 35px;
+}
+
+.slider-wrapper i.fa-angle-left {
+  color: #fff;
+  font-size: 62px;
+  right: 36px;
+  margin-left: 35px;
+}
+.all-reviews {
+  padding: 100px 10px;
+  background: #f1f3f4;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.single-slider {
+  background: #fff;
+  margin: 10px 20px;
+  padding: 20px;
+  border-radius: 5px;
+  word-break: break-all;
+}
+.single-slider > h3 {
+  color: gold;
+  font-size: 18px;
+}
+.single-slider > p {
+  margin: 16px 0 10px 0;
+  font-size: 14px;
+  font-weight: 200;
+}
+.review-all > h4 {
+  background: #f1f3f4;
+  font-size: 40px;
+  margin: 0;
+  padding: 40px 0 0 0;
+}
+@media only screen and (max-width: 600px) {
+  .all-reviews {
+    padding: 50px 10px;
+    background: #f1f3f4;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

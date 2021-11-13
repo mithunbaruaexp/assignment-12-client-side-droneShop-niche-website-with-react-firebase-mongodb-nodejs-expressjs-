@@ -1,0 +1,14 @@
+.cdheader {
+  background: #333;
+  width: 700px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.cdheader a {
+  color: #fff;
+  text-decoration: none;
+  background: skyblue;
+  margin: 0 2px;
+  padding: 3px 15px;
+}

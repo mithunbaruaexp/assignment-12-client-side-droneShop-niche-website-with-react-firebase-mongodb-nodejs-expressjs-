@@ -1,0 +1,65 @@
+.log-in {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 150px 0;
+}
+.custom-login {
+  border: 1px solid #007acc;
+  background: #007acc;
+  color: white;
+  padding: 10px 40px;
+  font-size: 20px;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+.custom-login:hover {
+  border: 1px solid #007acc;
+  background: #fff;
+  color: #007acc;
+
+  /* font-weight: 700; */
+  padding: 10px 40px;
+  font-size: 20px;
+}
+.log-in > input {
+  border: 1px solid #007acc;
+  margin: 5px;
+  font-size: 24px;
+  padding: 10px 40px;
+  border-radius: 10px;
+}
+.log-in-btn {
+  border: 1px solid #007acc;
+  background: #007acc;
+  color: white;
+  padding: 10px 40px;
+  font-size: 20px;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+.log-in-btn:hover {
+  border: 1px solid #007acc;
+  background: #fff;
+  color: #007acc;
+}
+.bg-pc {
+  height: 70vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: url("https://i.ibb.co/ww2GqqN/Screenshot-1.png");
+}
+@media only screen and (max-width: 600px) {
+  .bg-pc {
+    height: 90vh;
+    background-position: right;
+  }
+  .log-in > input {
+    border: 1px solid #007acc;
+    margin: 5px;
+    font-size: 18px;
+    padding: 5px 20px;
+    border-radius: 10px;
+  }
+}

@@ -1,0 +1,48 @@
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bg-registration {
+  margin: 0 0;
+  padding: 100px 0;
+  /* height: 70vh; */
+  /* background-position: right; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: url("https://i.ibb.co/ww2GqqN/Screenshot-1.png");
+}
+.registration-btn {
+  border: 2px solid #fff;
+  background: transparent;
+  font-size: 24px;
+  padding: 5px 10px;
+  color: #fff;
+  margin-bottom: 50px;
+  transition: 0.3s;
+}
+.registration-btn:hover {
+  border: 2px solid #000;
+  /* background: #fff; */
+  font-size: 24px;
+  padding: 5px 10px;
+  color: #000;
+  margin-bottom: 50px;
+}
+.registration-form > input {
+  border: 2px solid #fff;
+  background: transparent;
+  font-size: 24px;
+  padding: 5px 10px;
+  color: #fff;
+  margin-bottom: 5px;
+  transition: 0.3s;
+}
+.registration-form > input:hover {
+  border: 2px solid #000;
+  /* background: #fff; */
+  /* font-size: 24px; */
+  /* padding: 5px 10px; */
+  color: #000;
+  /* margin-bottom: 50px; */
+}

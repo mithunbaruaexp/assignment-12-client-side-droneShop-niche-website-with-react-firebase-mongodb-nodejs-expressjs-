@@ -1,0 +1,32 @@
+.dashboard-reviews form {
+  background: lightskyblue;
+  width: 370px;
+  margin: 0 auto;
+  margin-top: 25px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.dashboard-reviews form input,
+.dashboard-reviews form textarea {
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 5px 7px;
+  border-radius: 5px;
+}
+
+.dashboard-reviews form input {
+  height: 45px;
+}
+
+.dashboard-reviews input[type="submit"] {
+  margin-top: 8px;
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.dashboard-reviews form textarea {
+  min-height: 140px;
+}

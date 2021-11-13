@@ -1,0 +1,50 @@
+.about-1-img {
+  width: 400px;
+}
+.second-container > img {
+  width: 340px;
+}
+
+.first-container > h2 {
+  font-size: 36px;
+  margin-top: 50px;
+}
+
+.first-container > p {
+  font-size: 18px;
+  margin: 40px 0;
+}
+
+.first-container {
+  /* margin-bottom: 0px; */
+  text-align: left;
+}
+.mission-container {
+  background-color: #fcfcfc;
+  padding: 20px 40px;
+  border-radius: 10px;
+  margin: 100px 0;
+  text-align: left;
+}
+.mission-container > h2 {
+  margin-bottom: 30px;
+}
+.mission-container > p {
+  margin-bottom: 70px;
+}
+@media only screen and (max-width: 600px) {
+  .about-1-img {
+    width: 250px;
+  }
+  .mission-container {
+    margin: 30px 0;
+  }
+  .first-container > h2 {
+    font-size: 24px;
+    /* margin-top: 5px; */
+  }
+  .first-container > p {
+    font-size: 14px;
+    /* margin-top: 5px; */
+  }
+}
