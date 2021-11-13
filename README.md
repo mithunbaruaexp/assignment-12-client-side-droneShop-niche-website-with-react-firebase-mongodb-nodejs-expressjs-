@@ -12,7 +12,7 @@ A squadron in air force, army aviation, or naval aviation is a unit comprising a
 
 ## Demo
 
-Insert gif or link to demo
+Link https://drone-shop-d22f5.web.app/
 
 ## Features
 
