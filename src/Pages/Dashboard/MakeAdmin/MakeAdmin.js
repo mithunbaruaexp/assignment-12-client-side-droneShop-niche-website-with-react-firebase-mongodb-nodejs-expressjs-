@@ -15,7 +15,7 @@ const MakeAdmin = () => {
     const confirmation = window.confirm("Are you aware?");
 
     if (confirmation) {
-      fetch("http://localhost:5000/users/admin", {
+      fetch("https://serene-anchorage-15140.herokuapp.com/users/admin", {
         method: "PUT",
         headers: {
           "content-type": "application/json",

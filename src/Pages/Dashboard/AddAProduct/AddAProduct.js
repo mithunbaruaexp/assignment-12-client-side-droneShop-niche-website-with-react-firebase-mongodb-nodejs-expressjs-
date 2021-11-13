@@ -21,7 +21,7 @@ const AddAProduct = () => {
     const newProduct = { title, details, price, brand, model, img };
 
     //send product to database
-    fetch("http://localhost:5000/products", {
+    fetch("https://serene-anchorage-15140.herokuapp.com/products", {
       method: "POST",
       headers: {
         "content-type": "application/json",

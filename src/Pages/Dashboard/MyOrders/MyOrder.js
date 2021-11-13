@@ -7,7 +7,7 @@ const MyOrder = (props) => {
   const handleOrderCancel = (id) => {
     const confirmation = window.confirm("Do you want to cancel?");
     if (confirmation) {
-      fetch(`http://localhost:5000/orders/${id}`, {
+      fetch(`https://serene-anchorage-15140.herokuapp.com/orders/${id}`, {
         method: "DELETE",
       })
         .then((res) => res.json())

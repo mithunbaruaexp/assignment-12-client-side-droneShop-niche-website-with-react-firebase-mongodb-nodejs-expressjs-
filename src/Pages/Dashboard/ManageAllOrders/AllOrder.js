@@ -6,7 +6,7 @@ const AllOrder = (props) => {
   const handleOrderDelete = (id) => {
     const confirmation = window.confirm("Are you sure?");
     if (confirmation) {
-      fetch(`http://localhost:5000/orders/${id}`, {
+      fetch(`https://serene-anchorage-15140.herokuapp.com/orders/${id}`, {
         method: "DELETE",
       })
         .then((res) => res.json())
@@ -27,7 +27,7 @@ const AllOrder = (props) => {
 
       const updatedData = { ...toBeUpdated, orderStatus };
 
-      const url = `http://localhost:5000/orders/${id}`;
+      const url = `https://serene-anchorage-15140.herokuapp.com/orders/${id}`;
       fetch(url, {
         method: "PUT",
         headers: {

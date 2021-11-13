@@ -7,7 +7,7 @@ const ManageAllOrders = () => {
 
   //delete orders
   useEffect(() => {
-    const url = `http://localhost:5000/all-orders`;
+    const url = `https://serene-anchorage-15140.herokuapp.com/all-orders`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => setAllOrders(data));

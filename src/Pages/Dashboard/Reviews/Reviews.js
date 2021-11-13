@@ -22,7 +22,7 @@ const Reviews = () => {
     const newRating = { reviewer, reivewText, ratingNumber };
 
     //saving review
-    fetch("http://localhost:5000/ratings", {
+    fetch("https://serene-anchorage-15140.herokuapp.com/ratings", {
       method: "POST",
       headers: {
         "content-type": "application/json",
