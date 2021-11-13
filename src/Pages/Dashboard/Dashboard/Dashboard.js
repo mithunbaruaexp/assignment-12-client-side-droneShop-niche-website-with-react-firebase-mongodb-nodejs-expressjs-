@@ -27,10 +27,10 @@ const Dashboard = () => {
             <img src="https://i.ibb.co/44vXvNm/logo-black-footer.png" alt="" />
           </NavLink>
         </div>
-        <Navbar className="cdheader" expand="lg">
-          <Container>
+        <Navbar className="" expand="lg">
+          <Container className="ccontainer">
             <Row>
-              <Col>
+              <div className="col-md-12">
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                   <Nav className="me-auto my-2 my-lg-0">
@@ -46,23 +46,23 @@ const Dashboard = () => {
                         <NavLink to={`${url}/manage-products`}>
                           Manage Products
                         </NavLink>
-                        <button onClick={logout}>
-                          {user?.displayName}Logout
+                        <button className="user-out" onClick={logout}>
+                          {user?.displayName} Logout
                         </button>
                       </>
                     ) : (
                       <>
-                        <Link to={`${url}`}>My Orders</Link>
+                        <Link to={`${url}`}>My Orders </Link>
                         <NavLink to={`${url}/payment`}>Pay</NavLink>
                         <NavLink to={`${url}/review`}>Review</NavLink>
-                        <button onClick={logout}>
-                          {user?.displayName}Logout
+                        <button className="user-out" onClick={logout}>
+                          {user?.displayName} Logout
                         </button>
                       </>
                     )}
                   </Nav>
                 </Navbar.Collapse>
-              </Col>
+              </div>
             </Row>
           </Container>
         </Navbar>

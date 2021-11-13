@@ -1,4 +1,5 @@
 import React from "react";
+import "./AllOrder.css";
 
 const AllOrder = (props) => {
   const { _id, productName, email, orderStatus } = props.order;
@@ -53,13 +54,13 @@ const AllOrder = (props) => {
         <td className="text-right">
           <button
             onClick={() => handleShippingApproval(_id)}
-            className="text-white bg-green-600 p-2 mr-2"
+            className="approve-btn mr-2"
           >
             Approve
           </button>
           <button
             onClick={() => handleOrderDelete(_id)}
-            className="text-white bg-red-600 p-2"
+            className="cancel-btn "
           >
             Cancel
           </button>

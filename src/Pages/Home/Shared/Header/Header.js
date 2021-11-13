@@ -25,7 +25,7 @@ const Header = () => {
               <NavLink to="/explore">Explore</NavLink>
               <NavLink to="/about">About</NavLink>
               <NavLink to="/contact">Contact</NavLink>
-              <NavLink to="/register">Register</NavLink>
+              {/* <NavLink to="/register">Register</NavLink> */}
             </Nav>
             {user?.email ? (
               <>

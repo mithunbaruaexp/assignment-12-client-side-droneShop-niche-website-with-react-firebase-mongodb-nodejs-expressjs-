@@ -1,3 +1,4 @@
+import "./AddProduct.css";
 import React, { useRef } from "react";
 
 const AddAProduct = () => {
@@ -95,7 +96,9 @@ const AddAProduct = () => {
                   name="img"
                   placeholder="image link"
                 />
-                <button type="submit">Add Product</button>
+                <button className="add-product" type="submit">
+                  Add Product
+                </button>
               </form>
             </div>
             <div className="col-md-3"></div>

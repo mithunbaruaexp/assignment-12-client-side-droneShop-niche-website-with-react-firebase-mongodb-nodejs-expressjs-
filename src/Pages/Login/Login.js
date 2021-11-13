@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useLocation, useHistory } from "react-router-dom";
+import { useLocation, useHistory, NavLink } from "react-router-dom";
 import useAuth from "../../hooks/useAuth";
 import Footer from "../Home/Shared/Footer/Footer";
 import Header from "../Home/Shared/Header/Header";
@@ -67,6 +67,9 @@ const Login = () => {
                 <button className="log-in-btn mt-5" type="submit">
                   Login
                 </button>
+                <NavLink className="goto-register" to="/register">
+                  Create an account
+                </NavLink>
               </form>
             </div>
           </>

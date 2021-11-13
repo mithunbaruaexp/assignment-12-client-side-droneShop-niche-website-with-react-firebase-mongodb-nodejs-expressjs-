@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, NavLink } from "react-router-dom";
 import "./Banner.css";
 
 const Banner = () => {
@@ -16,7 +17,12 @@ const Banner = () => {
               investment. We've flown plenty and there are a lot of good
               performers that we use.
             </p>
-            <button>Explore</button>
+
+            <button>
+              <Link className="btn-explore" to="/explore">
+                Explore
+              </Link>
+            </button>
           </div>
           <div className="col-md-6">
             <img

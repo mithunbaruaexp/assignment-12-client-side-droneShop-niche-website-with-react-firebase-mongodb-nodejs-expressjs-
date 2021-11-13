@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useHistory, useLocation } from "react-router-dom";
+import { NavLink, useHistory, useLocation } from "react-router-dom";
 import useAuth from "../../hooks/useAuth";
 import BreadCumbs from "../BreadCumbs/BreadCumbs";
 import Footer from "../Home/Shared/Footer/Footer";
@@ -79,8 +79,15 @@ const Registration = () => {
                 placeholder="Re-type Password"
                 onChange={handleOnChange}
               />
-              <button type="submit">Register</button>
+              <button className="registration-btn" type="submit">
+                Register
+              </button>
             </form>
+            <NavLink className="goto-account" to="/login">
+              Already have an account?
+            </NavLink>
+
+            {/* <Link> Already have an account?</Link> */}
           </>
         )}
       </div>

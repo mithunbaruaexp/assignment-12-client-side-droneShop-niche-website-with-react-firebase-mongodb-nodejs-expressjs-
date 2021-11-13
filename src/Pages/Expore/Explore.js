@@ -22,8 +22,11 @@ const Explore = () => {
             {products.length === 0 ? (
               <>
                 <>
-                  <div class="spinner-border" role="status">
-                    <span class="visually-hidden">Loading...</span>
+                  <div className="spnner-css">
+                    {" "}
+                    <div class="spinner-border" role="status">
+                      <span class="visually-hidden">Loading...</span>
+                    </div>
                   </div>
                 </>
               </>

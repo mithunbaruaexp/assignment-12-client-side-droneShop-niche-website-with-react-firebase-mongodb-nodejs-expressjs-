@@ -1,0 +1,48 @@
+table.table.table-striped.table-bordered.table-hover {
+  border: 1px solid #87ceeb;
+}
+.cancel-btn {
+  color: red;
+  /* padding: 10px 20px; */
+  border: 1px solid red;
+  margin: 10px 0;
+  background-color: transparent;
+  padding: 5px 20px;
+  transition: 0.3s;
+}
+.cancel-btn:hover {
+  color: white;
+  background: red;
+  /* padding: 10px 20px; */
+  /* border: 1px solid red; */
+  /* margin: 10px 0; */
+  /* background-color: transparent; */
+  /* padding: 5px 20px; */
+}
+.approve-btn {
+  color: green;
+  border: 1px solid green;
+  background: transparent;
+  padding: 5px 20px;
+  transition: 0.3s;
+}
+.approve-btn:hover {
+  color: #fff;
+  border: 1px solid green;
+  /* background: transparent; */
+  background: green;
+  padding: 5px 20px;
+}
+td button {
+  color: red;
+  border: 1px solid red;
+  padding: 5px 15px;
+  background: transparent;
+  transition: 0.3s;
+}
+td button:hover {
+  color: white;
+  /* border: 1px solid red; */
+  /* padding: 5px 15px; */
+  background: red;
+}

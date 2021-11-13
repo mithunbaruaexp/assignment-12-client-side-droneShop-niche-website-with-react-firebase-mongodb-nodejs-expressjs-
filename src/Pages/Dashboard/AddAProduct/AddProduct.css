@@ -1,0 +1,17 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+form input,
+textarea {
+  border: 1px solid #87ceeb;
+  margin: 7px 0px;
+  padding: 10px 10px;
+}
+.add-product {
+  border: 1px solid #87ceeb;
+  background: #87ceeb;
+  color: #fff;
+  padding: 5px 5px;
+  font-size: 20px;
+}

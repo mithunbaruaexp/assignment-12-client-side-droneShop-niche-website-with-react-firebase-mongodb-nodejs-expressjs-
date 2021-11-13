@@ -50,6 +50,10 @@
   background-size: cover;
   background: url("https://i.ibb.co/ww2GqqN/Screenshot-1.png");
 }
+.goto-register {
+  margin-top: 10px;
+  text-decoration: none;
+}
 @media only screen and (max-width: 600px) {
   .bg-pc {
     height: 90vh;

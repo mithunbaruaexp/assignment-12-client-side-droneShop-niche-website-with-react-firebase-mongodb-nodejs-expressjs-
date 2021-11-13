@@ -48,7 +48,7 @@ const MakeAdmin = () => {
                     name="email"
                     defaultValue={email}
                   />
-                  <button>Add as Admin</button>
+                  <button className="add-admin">Add as Admin</button>
                 </form>
               </div>
             </div>
