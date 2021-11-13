@@ -25,7 +25,7 @@ const ManageAllOrders = () => {
               <thead>
                 <tr>
                   <th>Product Name</th>
-                  <th>Email</th>
+                  <th>Customer Email</th>
                   <th>Status</th>
                   <th>Ship/Cancel</th>
                 </tr>
