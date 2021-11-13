@@ -19,9 +19,21 @@ const Explore = () => {
       <div className="featured-product-area mt-5 mb-5">
         <div className="container">
           <div className="row">
-            {products.map((product) => (
-              <Product product={product} key={product._id}></Product>
-            ))}
+            {products.length === 0 ? (
+              <>
+                <>
+                  <div class="spinner-border" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                </>
+              </>
+            ) : (
+              <>
+                {products.map((product) => (
+                  <Product product={product} key={product._id}></Product>
+                ))}
+              </>
+            )}
           </div>
         </div>
       </div>
